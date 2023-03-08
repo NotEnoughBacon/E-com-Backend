@@ -4,6 +4,7 @@ const Category = require('./Category');
 const Tag = require('./Tag');
 const ProductTag = require('./ProductTag');
 
+//creates associations between models
 // Products belongsTo Category
 Product.belongsTo(Category);
 
